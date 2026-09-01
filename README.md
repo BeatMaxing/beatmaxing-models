@@ -29,7 +29,7 @@ not match byte for byte is discarded and the original is fetched instead.
 
 The last two are the engine's own model index files. Upstream they are both named
 `model_data_new.json`; they are published here under the names the engine expects
-to find on disk, because a copy under the source name would not be recognised.
+to find on disk, because a copy under the source name would not be recognized.
 
 **The release tag never changes.** A shipped copy of the helper points at
 `releases/download/models-v1/`, so renaming the tag or this repository would
@@ -41,13 +41,18 @@ None of this is BeatMaxing's own work. It is republished unchanged so that it
 stays reachable.
 
 - The model was trained as part of the [Ultimate Vocal Remover
-  (UVR)](https://github.com/Anjok07/ultimatevocalremovergui) project and is
-  distributed under the MIT licence. **Credit to UVR and its developers.**
+  (UVR)](https://github.com/Anjok07/ultimatevocalremovergui) project. We copied
+  it from `TRvlvr/model_repo`, which publishes no license file, so no license
+  terms travel with this checkpoint and we cannot grant any. UVR ask that
+  third-party developers credit UVR and its developers, and we do.
+  **Credit to UVR and its developers.** It is republished here unchanged, for
+  reachability. If you are a rights holder and want it taken down, say so at
+  beatmaxing.com and it comes down.
 - The code that loads it is
   [python-audio-separator](https://github.com/nomadkaraoke/python-audio-separator),
   MIT licensed, © 2023 karaokenerds.
 
-The same credit is published at <https://beatmaxing.com/terms>.
+The same credit is published at <https://beatmaxing.com/terms.html>.
 
 ## Issues
 
