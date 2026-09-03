@@ -1,0 +1,7 @@
+{
+  "_what": "Panel package digests, published on a channel the update server does not control (register item 783).",
+  "_why": "The .ccx carries no signature. The helper refuses to install a panel unless beatmaxing.com and this file agree on its sha256, so one compromised host is not enough.",
+  "_where": "https://raw.githubusercontent.com/BeatMaxing/beatmaxing-models/main/panel-digests.json",
+  "_release_step": "Add one line here for every panel version BEFORE the manifest on beatmaxing.com offers it. A version missing here cannot be installed - that is deliberate.",
+  "0.9.11": "8c02ca53510705e6c1ab9817f05f2a11c29e52cf809eb10a50cf9da153321fd8"
+}
