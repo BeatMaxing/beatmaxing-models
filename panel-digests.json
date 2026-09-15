@@ -3,6 +3,8 @@
   "_why": "The .ccx carries no signature. The helper refuses to install a panel unless beatmaxing.com and this file agree on its sha256, so one compromised host is not enough.",
   "_where": "https://raw.githubusercontent.com/BeatMaxing/beatmaxing-models/main/panel-digests.json",
   "_release_step": "Add one line here for every panel version BEFORE the manifest on beatmaxing.com offers it. A version missing here cannot be installed - that is deliberate.",
+  "_never": "DO NOT make the two channels reconcile automatically. A GitOps-style loop that syncs this file from beatmaxing.com (or the reverse) DESTROYS the only property that makes two channels worth having: they must agree INDEPENDENTLY, so one compromised host is not enough. Phase 5's S8 (Building Gitops Workflows) recommends exactly that reconciliation - it is CONTRAINDICATED here, not merely inapplicable. Register items 783, 939, 945.",
   "0.9.11": "8c02ca53510705e6c1ab9817f05f2a11c29e52cf809eb10a50cf9da153321fd8",
-  "0.9.12": "5123fdcdb5a95d557f1794fc327f062c376cdfe429d83c3072d897fa0f0b4e96"
+  "0.9.12": "5123fdcdb5a95d557f1794fc327f062c376cdfe429d83c3072d897fa0f0b4e96",
+  "0.9.13": "47b382a1659d83f27559e63e50e30c0f442c2c4541286033d5668228efc98934"
 }
